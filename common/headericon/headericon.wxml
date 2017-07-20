@@ -1,0 +1,1 @@
+<view class="headericon" bindtap="handleClick">{{headericonname}}</view>

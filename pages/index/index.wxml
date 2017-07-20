@@ -1,0 +1,9 @@
+<view class="map-con">
+	<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" style="width: 100%; height: 100%;" show-location controls="{{controls}}" b    indcontroltap="handleControlTap" markers="{{markers}}" bindmarkertap="bingMarkerTap"></map>
+</view>
+
+<view class="bottom-area">
+	<navigator url="/pages/publish/publish" class="publish">发布</navigator>
+	<navigator url="/pages/search/search" class="search">搜索</navigator>
+	<navigator url="/pages/ticket/ticket" class="ticket">开心一刻</navigator>
+</view>
